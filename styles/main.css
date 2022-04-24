@@ -21,3 +21,9 @@ h2 {
   margin: 20px 0px;
   padding: 0px 20px;
 }
+
+#kia-ora {
+  border: 10px #222 solid;
+  padding: 0px 20px;
+  width: 400px;
+}
