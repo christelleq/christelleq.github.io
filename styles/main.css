@@ -27,3 +27,50 @@ h2 {
   padding: 0px 20px;
   width: 400px;
 }
+
+#content-box {
+  width: 100px;
+  height: 100px;
+  background-color: #999;
+}
+
+#content-with-padding {
+  width: 100px;
+  height: 100px;
+  background-color: #999;
+  padding: 10px;
+}
+
+#content-with-a-border {
+  width: 100px;
+  height: 100px;
+  background-color: #999;
+  border: 10px solid #000;
+}
+
+#content-with-padding-and-a-border {
+  width: 100px;
+  height: 100px;
+  background-color: #999;
+  padding: 10px;
+  border: 10px solid #000;
+}
+
+#content-with-padding-a-border-and-a-margin {
+  width: 100px;
+  height: 100px;
+  background-color: #999;
+  padding: 10px;
+  border: 10px solid #000;
+  margin: 50px;
+}
+
+img {
+  max-width: 800px;
+  max-length: 800px;
+}
+
+.codeshots {
+  max-width: 300px;
+  max-length: 300px;
+}
