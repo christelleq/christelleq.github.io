@@ -2,3 +2,7 @@ body {
   font-family: helvetica;
   margin: 20px 100px 100px 100px;
 }
+
+a {
+  color: gray;
+}
