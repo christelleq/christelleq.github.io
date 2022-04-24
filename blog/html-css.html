@@ -19,7 +19,91 @@
     </nav>
     <main>
       <article>
-      <h3>What is the difference between Margin, Border, and Padding?</h1>
+      <h3>What is the difference between Margin, Border, and Padding?</h3>
+      <h4>by Christelle Quilang</h4>
+      <p><a href="#summary">Click here to skip to the summary.</a></p>
+        <!--The section below is about content.-->
+        <section id="content">
+          <p><strong>An element with content takes up space.</strong> 
+            The size of content can be specified.</p>
+          <figure>
+            <div id="content-box">content box</div>
+            <figcaption>100px by 100px content.</figcaption>
+          </figure>
+          <figure>
+            <figcaption>This box was styled with this code:</figcaption>
+            <img src="/Users/christelleq/Desktop/content-box.png" class="codeshots">
+            <figcaption>You can also see this by navigating the DOM Inspector.</figcaption>
+          </figure>
+        </section>
+        <!--The section below is about padding-->
+        <section id="padding">
+          <p><strong>Padding goes around the element.</strong> This is transparent.</p>
+          <figure>
+            <div id="content-with-padding">content with padding</div>
+            <figcaption>100px by 100px content with 10px padding.<br>
+              10px was added to the top, right, bottom, and left sides of the box above.<br>
+              Notice that the text is no longer at the edge of the box.<br>
+              Note, the padding takes the color of the content.</figcaption>
+          </figure>
+          <figure>
+            <figcaption>This content with padding was styled with the following code:</figcaption>
+            <img src="/Users/christelleq/Desktop/content-with-padding.png" class="codeshots">
+        </figure>
+        </section>
+        <!--The section below is about borders-->
+        <section id="border">
+          <p><strong>The border goes around the element, and if present, the padding also.</strong></p>
+          <figure>
+            <div id="content-with-a-border">content with a border</div>
+            <figcaption>100px by 100px content with a 10px border.</figcaption>
+          </figure>
+          <figure>
+            <figcaption>This figure was styled with the following code:</figcaption>
+            <img src="/Users/christelleq/Desktop/content-with-a-border.png" class="codeshots">
+          </figure>
+          <figure>
+            <div id="content-with-padding-and-a-border">content with padding and a border </div>
+            <figcaption>100px by 100px content with 10px padding and a 10px border.</figcaption>
+          </figure>
+          <figure>
+            <figcaption>This figure was styled with the following code:</figcaption>
+            <img src="/Users/christelleq/Desktop/content-with-padding-and-a-border.png" class="codeshots">
+          </figure>
+        </section>
+        <!--The section below is about margins-->
+        <section>
+          <p><strong>The margin clears the area outside the border.</strong> 
+            That is, the margin is the space between the borders of elements that are next to each other. 
+            It is also the space between the borders of an element and the edges of the browser screen.</p>
+          <figure>
+            <div id="content-with-padding-a-border-and-a-margin">content with padding, a border, and a margin</div>
+            <figcaption>100px by 100px content with 10px padding, a 10px border and a 50px margin.<br>
+            50px is added to all sides of the content.</figcaption>
+          </figure>
+          <figure>
+            <figcaption>This figure was styled with the following code:</figcaption>
+            <img src="/Users/christelleq/Desktop/content-with-padding-a-border-and-a-margin.png" class="codeshots">
+          </figure>
+          <figure>
+            <figcaption>The DOM Inspector reflects the space taken up by each level (content, padding, border and margin) of an element:</figcaption>
+            <img src="/Users/christelleq/Desktop/DOM-Inspector.png">
+          </figure>
+        </section>
+        <!--The content below is the summary.-->
+        <section id="summary">
+          <p>In sum, the difference between the margin, border, and padding is 
+            <strong>how many levels away they are from the content.</strong></p>
+          <ul>
+            <li>The margin is the space between the borders of elements next to each other, 
+              and between the borders of elements and the edges of the screen visible to the user.
+              Between the margin and the content may be the border and the padding.</li>
+            <li>The border is the space that wraps around the content, and if present, the padding also.
+              Between the border and the content may be the padding.
+            </li>
+            <li>The padding is the space that wraps around the content.</li>
+          </ul>
+        </section>
       </article>
     </main>
   </body>
