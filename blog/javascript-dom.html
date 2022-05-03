@@ -19,7 +19,99 @@
     </nav>
     <main>
       <article>
-        <h3></h3>
+        <h3>JavaScript Fundamentals</h3>
+        <h4>by Christelle Quilang</h4>
+        <!-- JS x HTML & CSS -->  
+        <section>
+          <h5>
+            An analogy to describe JavaScript and its relationship to HTML and CSS.
+          </h5>
+          <p>
+            A website is like a doll. Imagine a wooden doll. HTML is what determines the structure of the doll, what makes it look like a doll: its shape and contours carving out the eyes, nose, mouth and other body parts. CSS is what determines the doll’s style, its skin colour, eye colour, hair colour, clothes, etc. JavaScript can carve into the structure of the doll, like HTML, but unlike HTML, it can do more things like changing the doll’s structure so that its limbs can move, as if she has joints. JavaScript can also interact with the doll’s style like CSS, but unlike CSS, it can create for example, dresses that can turn into mermaid tails, and make up that only shows up when the doll’s face is wet.
+          </p>
+        </section>
+        <!-- CONTROL FLOW AND LOOPS -->
+        <section>
+          <h5>
+            Explain control flow and loops using an example process from everyday life.
+          </h5>
+          <p>Roughly, this is my ideal daily schedule:</p>
+          <ol>
+            <li>6am do morning routine</li>
+            <li>4x 1.5 hour study sessions with 30 minute breaks</li>
+            <li>spend time with loved ones</li>
+            <li>7pm do night routine</li>
+          </ol>
+          <p>
+            In the same way I would go through this schedule from top to bottom, the computer runs code starting at the top and works its way down the code. This is called control flow, the order in which your computer runs code. If your computer runs into a loop, it will continue running this loop until it reaches the condition that ends the loop, before continuing down the code. This is like how I repeat my study sessions followed by 30 minute breaks, until I finish 4 study sessions (the condition that ends the loop).
+          </p>
+        </section>
+        <!-- DOM -->
+        <section>
+          <h5>
+            Describe what the DOM is and an example of how you might interact with it.
+          </h5>
+          <p>
+            DOM is short for Document Object Model.
+            'Document' refers to the HTML or XML document of your webpage.
+            'Object Model' refers to the way it represents the document and its elements: as objects. 
+          </p>
+          <figure>
+            <img src="https://christelleq.github.io/media/DOM-structure.png">
+            <figurecaption>How the DOM may represent a document. Source:<a href="https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/">freecodecamp.org</a></figurecaption>
+          </figure>
+          <p>
+            The DOM defines the logical structure of documents and it is an application programming interface (API). With it we can access and manipulate objects in our document. It is designed to be used with any programming language, such as HTML, CSS and JavaScript.
+          </p>
+          <p> 
+            My favourite use of it is using Workspaces in DevTools. Using Workspace, you can save the changes you make in DevTools to your source code. It's very handy for testing code and seeing how it interacts with your page all in one tab.
+          </p>
+          <figure>
+            <img src=""> 
+          </figure>
+        </section>
+        <!-- ARRAYS AND OBJECTS -->
+        <section>
+          <h5>
+            Explain the difference between accessing data from arrays and objects.
+          </h5>
+          <p>
+            Arrays contain a list of things, separated by commas: strings, numbers, variables, even other arrays and objects. Each item in an array is assigned an index depending on their position, it starts at the left with 0, 1, 2… and continues in this way with sequential whole numbers. You can access these things by referring to these indices. 
+          </p>
+          <p>
+            Objects contain key-value pairs, each pair separated by a comma, and a key and its corresponding value separated by a colon. You access this data by stating the name of the object and referring to the key. 
+          </p>
+          <figure>
+            <img src="https://christelleq.github.io/media/objects-v-arrays.png">
+            <figcaption>How to access data from objects (top, in blue) and arrays (bottom, in pink).</figcaption>
+          </figure>
+          <figure>
+            <img src="https://christelleq.github.io/media/objects-v-arrays-console.png">
+            <figcaption>The output of the <em>console.log</em>s from the code above.</figcaption>
+          </figure>
+        </section>
+        <!-- FUNCTIONS -->
+        <section>
+          <h5>
+            Explain what functions are and why they are helpful.
+          </h5>
+          <p>
+            A function is a list of instructions we give the computer to run. 
+          </p>
+          <figure>
+            <img src="https://christelleq.github.io/media/countToThree-function.png">
+            <figcaption>An example of a function.</figcaption>
+          </figure>
+          <p>
+            To use a function, you only need to call it, like so:
+          </p>
+          <figure>
+            <img src="https://christelleq.github.io/media/call-countToThree-function.png">
+          </figure>
+          <p>
+            You can call a function countless times. This is much easier than writing the code over and over whenever you need it. Functions are helpful because they are <strong>reusable</strong>.
+          </p>
+        </section>
       </article>
     </main>
   </body>
