@@ -97,3 +97,32 @@ img {
     font-size: 13px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 10px;
+    width: 600px;
+    /* font-size: 90%; */
+  }
+  h1 {
+    font-size: 57px;
+  }
+  h2 {
+    font-size: 19px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  li {
+    font-size: 14px;
+  }
+  p {
+    font-size: 17px;
+  }
+}
